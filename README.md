@@ -3,8 +3,9 @@ portfolio of AWS projects.
 
 ## Technologies used:
 
-AWS
-ReactJS
-Git
-github
-ssh
+* AWS
+* ReactJS
+* brew
+* Git
+* github
+* ssh
