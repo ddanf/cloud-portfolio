@@ -1,2 +1,2 @@
-# cloud-portfolio
-portfolio of cloud projects
+# Dan's AWS portfolio
+portfolio of AWS projects.
