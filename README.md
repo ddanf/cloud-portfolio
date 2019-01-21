@@ -9,3 +9,8 @@ portfolio of AWS projects.
 * Git
 * github
 * ssh
+* HTML
+* CSS
+* Font Awesome
+* Google Fonts
+* Google APIs
