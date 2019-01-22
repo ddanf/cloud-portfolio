@@ -3,14 +3,24 @@ portfolio of AWS projects.
 
 ## Technologies used:
 
-* AWS
-* ReactJS
+* Cloud
+  * AWS S3
+  * AWS CodeBuild
+  * AWS CloudFront
+  * AWS API Gateway
+  * AWS Lambda
+* Front End
+  * HTML
+  * CSS
+  * ReactJS
+* Back End
+  * nodeJS
+  * buildDeploy.py
 * brew
 * Git
 * github
 * ssh
-* HTML
-* CSS
-* Font Awesome
-* Google Fonts
-* Google APIs
+* External Assets
+  * Font Awesome
+  * Google Fonts
+  * Google APIs
