@@ -1,7 +1,8 @@
 # Dan's AWS portfolio
+
 portfolio of AWS projects.
 
-## Technologies used:
+## Technologies used
 
 * Cloud
   * AWS S3
@@ -9,13 +10,15 @@ portfolio of AWS projects.
   * AWS CloudFront
   * AWS API Gateway
   * AWS Lambda
+  * AWS CodePipeline
 * Front End
   * HTML
   * CSS
+  * BabelJS
   * ReactJS
 * Back End
   * nodeJS
-  * buildDeploy.py
+  * python
 * brew
 * Git
 * github

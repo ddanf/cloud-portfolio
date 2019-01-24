@@ -18,8 +18,8 @@ def lambda_handler(event, context):
                 if artifact["name"] == "MyAppBuild":
                     location = artifact["location"]["s3Location"]
                 else:
-                    print "artifact name = " + artifact["name"]
-        print "Building portfolio from " + str(location)
+                    print("artifact name = " + artifact["name"])
+        print("Building portfolio from " + str(location))
         s3 = boto3.resource('s3', config=Config(signature_version='s3v4'))
 
         build_bucket = s3.Bucket(location["bucketName"])
@@ -34,7 +34,7 @@ def lambda_handler(event, context):
                 target_bucket.upload_fileobj(obj, nm)
                 target_bucket.Object(nm).Acl().put(ACL='public-read')
 
-        print 'Job Done!'
+        print('Job Done!')
         topic.publish(Subject="Portfolio Deployment Status", Message="portfolio deployed successfully")
 
         if job:
