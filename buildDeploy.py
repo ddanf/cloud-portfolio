@@ -42,7 +42,7 @@ def lambda_handler(event, context):
             codepipeline.put_job_success_result(jobId=job["id"])
 
     except:
-        topic.publish(Subject="Portfolio Deployment FAILED", Message="portfolio deployment FAIILED!")
+        topic.publish(Subject="Portfolio Deployment FAILED", Message="Portfolio deployment FAIILED!")
         raise
 
     return "Complete"

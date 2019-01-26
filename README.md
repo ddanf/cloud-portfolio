@@ -11,6 +11,7 @@ portfolio of AWS projects.
   * AWS API Gateway
   * AWS Lambda
   * AWS CodePipeline
+  * terraform
 * Front End
   * HTML
   * CSS
@@ -19,6 +20,10 @@ portfolio of AWS projects.
 * Back End
   * nodeJS
   * python
+* Testing
+  * Chai
+  * Mocha
+  * Jest
 * brew
 * Git
 * github
