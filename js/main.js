@@ -1,4 +1,4 @@
-import 'react-dom'
+import 'react-dom';
 
 console.log("Loaded react-dom!");
 
