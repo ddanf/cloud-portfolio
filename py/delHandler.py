@@ -24,6 +24,9 @@ def delHandler(event, context):
         return "Key matches multiple records.  Delete on multiple records is not allowed."
 
     for item in items:
+        # build the filename, get the s3 object and then delete
+        # both the s3 object and the db item.
+        # should check for existence?
         fileName = item['id'] + '.mp3'
         mp3 = s3.Object(os.environ['BUCKET_NAME'], fileName)
         mp3.Delete()

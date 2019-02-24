@@ -71,6 +71,18 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./js/example-work.js":
+/*!****************************!*\
+  !*** ./js/example-work.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nclass ExampleWork extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {\n    render() {\n        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\n            \"section\",\n            { className: \"section section--alignCentered section--description\" },\n            this.props.work.map((example, idx) => {\n                return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ExampleWorkBubble, { example: example, key: idx });\n            })\n        );\n    }\n}\n\nclass ExampleWorkBubble extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {\n    render() {\n        let example = this.props.example;\n        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\n            \"div\",\n            { className: \"section__exampleWrapper\" },\n            react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\n                \"div\",\n                { className: \"section__example\" },\n                react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", { alt: example.image.desc,\n                    className: \"section__exampleImage\",\n                    src: example.image.src }),\n                react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\n                    \"dl\",\n                    { className: \"color--cloud\" },\n                    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\n                        \"dt\",\n                        { className: \"section__exampleTitle section__text--centered\" },\n                        example.title\n                    ),\n                    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"dd\", null)\n                )\n            )\n        );\n    }\n}\n/* harmony default export */ __webpack_exports__[\"default\"] = (ExampleWork);\n\n//# sourceURL=webpack:///./js/example-work.js?");
+
+/***/ }),
+
 /***/ "./js/main.js":
 /*!********************!*\
   !*** ./js/main.js ***!
@@ -79,7 +91,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_0__);\n\n\nconsole.log(\"Loaded react-dom!\");\n\nconsole.log(\"Webpack works\");\n\n//# sourceURL=webpack:///./js/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _example_work__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./example-work */ \"./js/example-work.js\");\n\n\n\n\nconst myWork = [{\n    'title': \"Work Example\",\n    'image': {\n        'desc': \"example screenshot of a coding project\",\n        'src': \"images/example1.png\",\n        'comment': ``\n    }\n}, {\n    'title': \"Dynamic Portfolio\",\n    'image': {\n        'desc': \"A serverless dynamic web portfolio\",\n        'src': \"images/example2.png\",\n        'comment': `“Chemistry” by Surian Soosay is licensed under CC BY 2.0\n                        https://www.flickr.com/photos/ssoosay/4097410999`\n    }\n}, {\n    'title': \"Work Example\",\n    'image': {\n        'desc': \"Ocelot work\",\n        'src': \"images/example3.png\",\n        'comment': `“Bengal cat” by roberto shabs is licensed under CC BY 2.0\n                        https://www.flickr.com/photos/37287295@N00/2540855181`\n    }\n}];\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_example_work__WEBPACK_IMPORTED_MODULE_2__[\"default\"], { work: myWork }), document.getElementById('example-work'));\n\n//# sourceURL=webpack:///./js/main.js?");
 
 /***/ }),
 
