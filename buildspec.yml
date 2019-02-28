@@ -1,9 +1,12 @@
 version: 0.1
 
 phases:
+  pre-build:
+    commands:
+      - npm ci
+      - npm test
   build:
     commands:
-      - npm install
       - npm run wpp
 artifacts:
   files:
