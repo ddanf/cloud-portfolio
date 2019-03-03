@@ -42,5 +42,5 @@ describe("ExampleWorkModal component", () => {
     it("Should call closeModal handler when clicked", () => {
         openComponent.find(".modal__closeButton").simulate('click');
         expect(mockCloseModalFn).toHaveBeenCalled();
-    })
+    });
 });
