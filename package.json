@@ -9,6 +9,7 @@
   "esversion": 6,
   "scripts": {
     "test": "jest",
+    "test-watch": "jest --watch",
     "wpd": "webpack --mode development",
     "wpp": "webpack --mode production",
     "wwd": "webpack --watch --mode development",

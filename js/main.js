@@ -5,6 +5,8 @@ import ExampleWork from './example-work';
 const myWork = [
     {
         'title': "Work Example",
+        'href': "https://example.com",
+        'desc': "Laborum occaecat enim fugiat laboris officia id et aute culpa consectetur.",
         'image': {
             'desc': "example screenshot of a coding project",
             'src': "images/example1.png",
@@ -13,6 +15,8 @@ const myWork = [
     },
     {
         'title': "Dynamic Portfolio",
+        'href': "https://example.com",
+        'desc': "Aliquip cillum duis duis exercitation incididunt exercitation.",
         'image': {
             'desc': "A serverless dynamic web portfolio",
             'src': "images/example2.png",
@@ -22,6 +26,8 @@ const myWork = [
     },
     {
         'title': "Work Example",
+        'href': "https://example.com",
+        'desc': "Deserunt voluptate tempor ex minim amet.",
         'image': {
             'desc': "Ocelot work",
             'src': "images/example3.png",
