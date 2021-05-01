@@ -36,5 +36,6 @@ jobs:
           echo test, and deploy your project.
           npm ci
           npm test -- --verbose && npm run wpp
-          ls -l
+          ls -lart dist
+          git status
           aws --version
