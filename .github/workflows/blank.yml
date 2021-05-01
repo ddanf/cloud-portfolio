@@ -35,4 +35,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           npm ci
-          npm test -- --verbose && echo passed!
+          npm test -- --verbose && npm run wpp
+          ls -l
+          aws --version
