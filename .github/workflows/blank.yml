@@ -35,4 +35,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           npm ci
-          npm test
+          npm test -- --verbose
