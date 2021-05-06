@@ -1,4 +1,5 @@
 # Dan's AWS portfolio
+# [![CI](https://github.com/ddanf/cloud-portfolio/actions/workflows/blank.yml/badge.svg)](https://github.com/ddanf/cloud-portfolio/actions/workflows/blank.yml)
 
 portfolio of AWS projects.
 
